@@ -1,0 +1,62 @@
+/* Logo Container */
+.logoContainer {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 48px;
+}
+
+/* Base logo styles */
+.logo {
+  height: auto;
+  max-height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Desktop Light Mode - Full Logo */
+.desktopLight {
+  display: none;
+}
+
+/* Show full logo on desktop in light mode */
+@media (min-width: 768px) {
+  .desktopLight {
+    display: block;
+  }
+
+  :global(.dark) .desktopLight {
+    display: none;
+  }
+}
+
+/* Desktop Dark Mode - Icon Only */
+.desktopDark {
+  display: none;
+}
+
+/* Show icon on desktop in dark mode */
+@media (min-width: 768px) {
+  :global(.dark) .desktopDark {
+    display: block;
+  }
+}
+
+/* Mobile - Icon Only */
+.mobile {
+  display: block;
+}
+
+/* Hide mobile version on desktop */
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+
+/* Accessibility - Ensure proper focus states */
+.logoContainer:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 4px;
+  border-radius: var(--radius);
+}

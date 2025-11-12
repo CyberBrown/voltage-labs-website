@@ -1,0 +1,326 @@
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, var(--background) 0%, var(--muted) 100%);
+  padding-top: var(--spacing-3xl);
+  padding-bottom: var(--spacing-3xl);
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroHeading {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+  color: var(--foreground);
+  letter-spacing: -0.02em;
+}
+
+.heroSubheading {
+  font-size: clamp(1.0625rem, 2vw, 1.25rem);
+  line-height: 1.7;
+  color: var(--muted-foreground);
+  margin: 0;
+}
+
+/* Section Styles */
+.sectionTitle {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  color: var(--foreground);
+}
+
+/* Background Section */
+.background {
+  background: var(--background);
+}
+
+.backgroundContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.backgroundContent p {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--foreground);
+  margin-bottom: var(--spacing-lg);
+}
+
+.backgroundContent p:last-child {
+  margin-bottom: 0;
+}
+
+/* Approach Section */
+.approach {
+  background: var(--muted);
+}
+
+.approachGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.approachCard {
+  padding: var(--spacing-lg);
+}
+
+.approachTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  color: var(--foreground);
+}
+
+.approachText {
+  color: var(--foreground);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Why Playbooks Work Section */
+.whyPlaybooks {
+  background: var(--background);
+}
+
+.whyPlaybooksContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-2xl);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.whyPlaybooksItem {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.whyPlaybooksTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.whyPlaybooksItem p {
+  color: var(--foreground);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Team Section */
+.team {
+  background: var(--muted);
+}
+
+.teamIntro {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto var(--spacing-2xl);
+  color: var(--muted-foreground);
+  font-size: 1.0625rem;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.teamCard {
+  padding: var(--spacing-lg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamMemberPlaceholder {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(135deg, var(--border) 0%, var(--input) 100%);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted-foreground);
+  font-weight: 500;
+  margin-bottom: var(--spacing-md);
+}
+
+.teamMemberName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: var(--spacing-xs);
+}
+
+.teamMemberRole {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.teamMemberBio {
+  color: var(--foreground);
+  line-height: 1.7;
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+.teamNote {
+  text-align: center;
+  color: var(--muted-foreground);
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Values Section */
+.values {
+  background: var(--background);
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.valueCard {
+  padding: var(--spacing-lg);
+}
+
+.valueTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  color: var(--foreground);
+}
+
+.valueDescription {
+  color: var(--foreground);
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* CTA Section */
+.ctaSection {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color: var(--primary-foreground);
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaHeading {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--primary-foreground);
+  margin-bottom: var(--spacing-md);
+}
+
+.ctaSubtext {
+  font-size: 1.0625rem;
+  color: var(--primary-foreground);
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.95;
+}
+
+.ctaSection .btn {
+  background-color: var(--primary-foreground);
+  color: var(--primary);
+}
+
+.ctaSection .btn:hover {
+  background-color: var(--background);
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: var(--spacing-2xl);
+    padding-bottom: var(--spacing-2xl);
+  }
+
+  .approachGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .whyPlaybooksContent {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .approachGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .whyPlaybooksContent {
+    grid-template-columns: 1fr;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Dark Mode */
+.dark .hero {
+  background: linear-gradient(135deg, var(--background) 0%, var(--muted) 100%);
+}
+
+.dark .approach {
+  background: var(--muted);
+}
+
+.dark .team {
+  background: var(--muted);
+}
+
+.dark .ctaSection {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+}
+
+/* Print Styles */
+@media print {
+  .approachGrid,
+  .whyPlaybooksContent,
+  .teamGrid,
+  .valuesGrid {
+    display: block;
+  }
+
+  .approachGrid > *,
+  .whyPlaybooksContent > *,
+  .teamGrid > *,
+  .valuesGrid > * {
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+}
