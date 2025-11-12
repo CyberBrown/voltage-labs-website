@@ -24,6 +24,13 @@ export const Layout = component$(() => {
         Skip to main content
       </a>
 
+      {/* Top Banner */}
+      <div class={styles.topBanner}>
+        <div class="container">
+          <span class={styles.bannerText}>Voltage Labs</span>
+        </div>
+      </div>
+
       <Header />
 
       <main id="main-content" class={styles.main} role="main">

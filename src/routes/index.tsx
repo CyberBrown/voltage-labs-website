@@ -38,10 +38,22 @@ export default component$(() => {
               AI-Driven Playbooks. Executive-Level Results.
             </h1>
             <p class={styles.heroSubheading}>
-              We bring executive-level AI strategy to small and midsized businesses.
+              We built an AI that learns your brand's unique "fingerprint" from 151 independent metrics. It then generates consistent, on-brand marketing and strategy, delivering executive-level results for a fraction of the cost.
             </p>
-            <a href="/contact" class="btn btn-primary">
-              Schedule Strategic Consultation
+          </div>
+        </div>
+      </section>
+
+      {/* Beta Tester CTA */}
+      <section class={`${styles.betaCta} section`} aria-label="Beta Program">
+        <div class="container">
+          <div class={styles.betaContent}>
+            <h2 class={styles.betaHeading}>Get a Free Brand Report & Marketing Assets</h2>
+            <p class={styles.betaDescription}>
+              We are currently looking for beta testers. In exchange for your honest feedback, you will get a comprehensive brand analysis, an SEO report, 10 social media posts, and one blog post—all tailored to your brand and free to use.
+            </p>
+            <a href="https://form.jotform.com/253064907564058" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Become a Beta Tester
             </a>
           </div>
         </div>
@@ -52,56 +64,54 @@ export default component$(() => {
         <div class="container">
           <h2 class={styles.sectionTitle}>Core Services</h2>
           <p class={styles.sectionIntro}>
-            Services designed to bridge the gap between
-            strategy and execution.
+            High-level overview of our services. Visit our Services page for detailed information.
           </p>
 
           <div class={`grid grid-cols-3 ${styles.servicesGrid}`}>
-            {/* Service 1: AI & Marketing Implementation */}
+            {/* Service 1: AI-Driven Marketing */}
             <article class={`card ${styles.serviceCard}`}>
               <div class={styles.serviceIcon}>📋</div>
-              <h3 class={styles.serviceTitle}>AI & Marketing Implementation</h3>
+              <h3 class={styles.serviceTitle}>AI-Driven Marketing</h3>
               <p class={styles.serviceDescription}>
-                Stop feeling overwhelmed by content demands. We use our in-house AI tools to build your marketing and content engine, or we can train your team to use our tools internally. We don't just plan; we do the work
-              </p>
-              <p class={styles.serviceOutcome}>
-
+                We use your brand's unique fingerprint to generate content that is perfectly on-brand and tailored to your customers.
               </p>
             </article>
 
-            {/* Service 2: Energy Efficiency Roadmap */}
+            {/* Service 2: Energy & Sustainability Roadmaps */}
             <article class={`card ${styles.serviceCard}`}>
               <div class={styles.serviceIcon}>⚙️</div>
-              <h3 class={styles.serviceTitle}>Energy Efficiency Roadmap</h3>
+              <h3 class={styles.serviceTitle}>Energy & Sustainability Roadmaps</h3>
               <p class={styles.serviceDescription}>
-                We use AI-driven analysis to map your path to efficiency, control energy costs, and meet sustainability goals. This is your high-level roadmap to a better bottom line.
-              </p>
-              <p class={styles.serviceOutcome}>
-
+                We apply the same data-driven rigor to your costs, building AI-powered roadmaps for efficiency and savings.
               </p>
             </article>
 
-            {/* Service 3: Strategic AI & Automation */}
+            {/* Service 3: Strategic AI Implementation */}
             <article class={`card ${styles.serviceCard}`}>
               <div class={styles.serviceIcon}>📊</div>
-              <h3 class={styles.serviceTitle}>Strategic AI & Automation</h3>
+              <h3 class={styles.serviceTitle}>Strategic AI Implementation</h3>
               <p class={styles.serviceDescription}>
-               What's your AI policy? We help you cut through the jargon and find the 'low hanging fruit' where AI can immediately reduce stress, increase efficiency, and give you a competitive edge
-              </p>
-              <p class={styles.serviceOutcome}>
-
+                We help you build your own "Brand Fingerprint" and show you how to leverage AI across your entire business.
               </p>
             </article>
           </div>
         </div>
       </section>
-      
-      {/* Social Proof */}
-      <section class={`${styles.socialProof} section`} aria-label="Client Testimonials">
+
+
+      {/* Proof Section - Solamp Success Story */}
+      <section class={`${styles.proofSection} section`} aria-label="Our Story">
         <div class="container">
-          <h2 class={styles.sectionTitle}>We're Not Just Consultants. We're Entrepreneurs.</h2>
-           <p class={styles.sectionIntro}>Why do we get it? Because we’ve done it. We took our own bootstrapped company from zero to $1 million in revenue in 16 months. We know the stress of running a small business. We know there are never enough people and the to-do lists are too long. We built Voltage Labs to bring the AI-powered tools and executive-level analysis—once only available to large corporations —to entrepreneurs like you</p>
-</div>
+          <div class={styles.proofContent}>
+            <h2 class={styles.proofHeading}>From Zero to $1 Million in 18 Months</h2>
+            <p class={styles.proofText}>
+              We built these tools for our own small business, Solamp. The results? 10x growth in organic users and over $1M in annual sales revenue in our first 18 months. We're now making this playbook available to you.
+            </p>
+            <a href="/about" class="btn btn-secondary">
+              Read Our Story
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* Value Proposition 
@@ -149,37 +159,6 @@ export default component$(() => {
         </div>
       </section>*/}
 
-      {/* Social Proof */}
-      <section class={`${styles.socialProof} section`} aria-label="Client Testimonials">
-        <div class="container">
-          <h2 class={styles.sectionTitle}>Trusted by Leaders in Metro Boston</h2>
-
-          <div class={`grid grid-cols-3 ${styles.clientGrid}`}>
-            <div class={`card ${styles.clientCard}`}>
-              <div class={styles.clientLogo}>
-                <span class={styles.logoPlaceholder}>Client Logo 1</span>
-              </div>
-            </div>
-            <div class={`card ${styles.clientCard}`}>
-              <div class={styles.clientLogo}>
-                <span class={styles.logoPlaceholder}>Client Logo 2</span>
-              </div>
-            </div>
-            <div class={`card ${styles.clientCard}`}>
-              <div class={styles.clientLogo}>
-                <span class={styles.logoPlaceholder}>Client Logo 3</span>
-              </div>
-            </div>
-          </div>
-
-          <p class={styles.socialProofNote}>
-            Client logos and testimonials coming soon. We work with established
-            organizations across professional services, healthcare, manufacturing,
-            and professional development sectors throughout New England.
-          </p>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section class={`${styles.ctaSection} section`} aria-label="Call to Action">
         <div class="container">
@@ -193,7 +172,6 @@ export default component$(() => {
               Schedule Consultation
             </a>
           </div>
-          <p class={styles.ctaLocation}>Metro Boston | Strategic Consulting</p>
         </div>
       </section>
     </Layout>

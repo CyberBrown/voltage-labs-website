@@ -22,236 +22,93 @@ export default component$(() => {
       <section class={`${styles.hero} section`} aria-label="Page Header">
         <div class="container">
           <div class={styles.heroContent}>
-            <h1 class={styles.heroHeading}>About Voltage Labs</h1>
+            <h1 class={styles.heroHeading}>Our Story</h1>
             <p class={styles.heroSubheading}>
-              Strategic consulting firm helping established organizations bridge
-              the gap between strategic vision and operational execution. Based
-              in Metro Boston, serving organizations throughout New England.
+              From a Small Business Problem to an AI-Powered Solution
             </p>
           </div>
         </div>
       </section>
 
-      {/* Company Background */}
-      <section class={`${styles.background} section`} aria-label="Company Background">
+      {/* Origin Story */}
+      <section class={`${styles.background} section`} aria-label="Origin Story">
         <div class="container">
-          <h2 class={styles.sectionTitle}>Our Story</h2>
-
           <div class={styles.backgroundContent}>
             <p>
-              Voltage Labs was founded on a simple observation: most organizations
-              fail not because of bad strategy, but because of poor execution. The
-              gap between strategic intent and operational reality is where value
-              gets lost. We built Voltage Labs to close that gap.
+              Voltage Labs was born from a common small business problem. Our founder, Chris, was running his own small business (Solamp) and needed world-class marketing. With a background at large corporations, he knew the "big company" marketing playbook, but it was too complex and expensive for an SMB.
             </p>
 
             <p>
-              Drawing from decades of combined experience across strategy consulting,
-              operations management, and organizational transformation, we've
-              developed a proven methodology for translating strategy into measurable
-              results. Our playbook-driven approach has helped dozens of organizations
-              across professional services, healthcare, manufacturing, and professional
-              development sectors accelerate their transformation initiatives.
+              So, he built his own in-house tools to fix it.
             </p>
 
             <p>
-              We work exclusively with established organizations and experienced
-              leadership teams who understand that transformation requires rigor,
-              discipline, and clear accountability. We're not here to convince you
-              to change—we're here to help you execute the change you've already decided
-              to make.
+              The goal: break down the corporate playbook and make it accessible. He developed an AI that could study a brand, measure it against 151 independent metrics, and create a unique "Brand Fingerprint." This fingerprint becomes the "source of truth" for generating perfectly consistent, on-brand marketing materials.
             </p>
 
             <p>
-              Based in Boston, we serve organizations throughout New England. Our
-              leadership team brings deep experience working with the region's premier
-              organizations across sectors and company sizes.
+              The tools worked so well that colleagues started asking when they could use them for their businesses. After months of refinement, Voltage Labs was born.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Approach */}
-      <section class={`${styles.approach} section`} aria-label="Our Approach">
+      {/* Case Study */}
+      <section class={`${styles.caseStudy} section`} aria-label="Case Study">
         <div class="container">
-          <h2 class={styles.sectionTitle}>Our Approach</h2>
-
-          <div class={`grid grid-cols-2 ${styles.approachGrid}`}>
-            <div class={`card ${styles.approachCard}`}>
-              <h3 class={styles.approachTitle}>Playbook Philosophy</h3>
-              <p class={styles.approachText}>
-                Strategy without execution is fantasy. We believe transformation
-                happens through disciplined, sequenced action. Our playbooks translate
-                strategic ambition into specific tactics, clear ownership, realistic
-                timelines, and measurable outcomes. Every action maps to business
-                impact.
-              </p>
-            </div>
-
-            <div class={`card ${styles.approachCard}`}>
-              <h3 class={styles.approachTitle}>Measurable Results</h3>
-              <p class={styles.approachText}>
-                We define success upfront and measure relentlessly. Vague aspirations
-                become specific metrics. Progress is tracked continuously against
-                baseline. Every initiative produces documented ROI. Your investment
-                in transformation is quantified and credible.
-              </p>
-            </div>
-
-            <div class={`card ${styles.approachCard}`}>
-              <h3 class={styles.approachTitle}>Realistic Rigor</h3>
-              <p class={styles.approachText}>
-                We work within your organizational constraints—not around them. We
-                understand the difference between textbook best practices and what
-                actually works in your company. Our recommendations are grounded in
-                your reality, not in consultant fantasies.
-              </p>
-            </div>
-
-            <div class={`card ${styles.approachCard}`}>
-              <h3 class={styles.approachTitle}>Accountability</h3>
-              <p class={styles.approachText}>
-                Clear ownership, structured review, and honest assessment drive
-                results. We establish accountability frameworks that work in your
-                culture. Progress isn't theoretical—it's documented, reviewed, and
-                optimized in real time.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Playbooks Work */}
-      <section class={`${styles.whyPlaybooks} section`} aria-label="Why Playbooks Work">
-        <div class="container">
-          <h2 class={styles.sectionTitle}>Why Playbooks Work</h2>
-
-          <div class={styles.whyPlaybooksContent}>
-            <div class={styles.whyPlaybooksItem}>
-              <h3 class={styles.whyPlaybooksTitle}>Eliminate Ambiguity</h3>
-              <p>
-                Vague strategies leave room for different interpretations. Playbooks
-                create clarity: everyone knows what gets done, when, by whom, and why.
-                No more misalignment or wasted effort on non-priorities.
-              </p>
-            </div>
-
-            <div class={styles.whyPlaybooksItem}>
-              <h3 class={styles.whyPlaybooksTitle}>Accelerate Execution</h3>
-              <p>
-                Clear sequencing, resource allocation, and dependency management
-                reduce delays. Your organization moves faster because everyone
-                understands what comes next and why.
-              </p>
-            </div>
-
-            <div class={styles.whyPlaybooksItem}>
-              <h3 class={styles.whyPlaybooksTitle}>Build Accountability</h3>
-              <p>
-                Clear ownership and structured review create accountability without
-                blame. People know what success looks like and can measure their
-                contribution to it.
-              </p>
-            </div>
-
-            <div class={styles.whyPlaybooksItem}>
-              <h3 class={styles.whyPlaybooksTitle}>Demonstrate ROI</h3>
-              <p>
-                Playbooks tie tactics to outcomes. You can demonstrate the business
-                value of transformation, not just effort. Stakeholders see actual
-                results, not just activity.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section class={`${styles.team} section`} aria-label="Our Team">
-        <div class="container">
-          <h2 class={styles.sectionTitle}>Our Team</h2>
-          <p class={styles.teamIntro}>
-            Voltage Labs is led by experienced consultants and practitioners
-            with deep expertise in strategic transformation and organizational
-            execution. We're building a team dedicated to helping organizations
-            close the strategy-execution gap.
+          <h2 class={styles.sectionTitle}>The Proof: The Solamp Case Study</h2>
+          <p class={styles.caseStudyIntro}>
+            We used this exact system to grow our own business. The numbers speak for themselves.
           </p>
 
-          <div class={`grid grid-cols-3 ${styles.teamGrid}`}>
-            <article class={`card ${styles.teamCard}`}>
-              <div class={styles.teamMemberPlaceholder}>Team Member 1</div>
-              <h3 class={styles.teamMemberName}>Name</h3>
-              <p class={styles.teamMemberRole}>Role</p>
-              <p class={styles.teamMemberBio}>
-                Professional background and expertise summary coming soon.
-              </p>
-            </article>
+          <h3 class={styles.resultsTitle}>The Results (in less than two years):</h3>
 
-            <article class={`card ${styles.teamCard}`}>
-              <div class={styles.teamMemberPlaceholder}>Team Member 2</div>
-              <h3 class={styles.teamMemberName}>Name</h3>
-              <p class={styles.teamMemberRole}>Role</p>
-              <p class={styles.teamMemberBio}>
-                Professional background and expertise summary coming soon.
-              </p>
-            </article>
+          <div class={`grid grid-cols-2 ${styles.metricsGrid}`}>
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>$0 to $1M+</div>
+              <p class={styles.metricLabel}>Annual sales revenue in 18 months</p>
+            </div>
 
-            <article class={`card ${styles.teamCard}`}>
-              <div class={styles.teamMemberPlaceholder}>Team Member 3</div>
-              <h3 class={styles.teamMemberName}>Name</h3>
-              <p class={styles.teamMemberRole}>Role</p>
-              <p class={styles.teamMemberBio}>
-                Professional background and expertise summary coming soon.
-              </p>
-            </article>
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>1M+</div>
+              <p class={styles.metricLabel}>Website impressions in 18 months (from $0)</p>
+            </div>
+
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>275%</div>
+              <p class={styles.metricLabel}>Growth in revenue (2025 Stats)</p>
+            </div>
+
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>10x</div>
+              <p class={styles.metricLabel}>Growth in organic (non-paid) users</p>
+            </div>
+
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>66%</div>
+              <p class={styles.metricLabel}>Engaged session rate from organic traffic</p>
+            </div>
+
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>441%</div>
+              <p class={styles.metricLabel}>Growth in units sold vs. 188% growth in orders</p>
+            </div>
+
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>35%</div>
+              <p class={styles.metricLabel}>Growth in average order value</p>
+            </div>
+
+            <div class={`card ${styles.metricCard}`}>
+              <div class={styles.metricValue}>175%</div>
+              <p class={styles.metricLabel}>Growth in new customers</p>
+            </div>
           </div>
 
-          <p class={styles.teamNote}>
-            Team bios and photos coming soon. In the meantime, we're excited to
-            discuss our experience and how we can help with your transformation.
-          </p>
-        </div>
-      </section>
-
-      {/* Core Values */}
-      <section class={`${styles.values} section`} aria-label="Our Values">
-        <div class="container">
-          <h2 class={styles.sectionTitle}>Our Values</h2>
-
-          <div class={`grid grid-cols-2 ${styles.valuesGrid}`}>
-            <div class={`card ${styles.valueCard}`}>
-              <h3 class={styles.valueTitle}>Rigor</h3>
-              <p class={styles.valueDescription}>
-                Discipline in thinking, thoroughness in analysis, honesty in
-                assessment. We don't cut corners or make excuses. Results speak.
-              </p>
-            </div>
-
-            <div class={`card ${styles.valueCard}`}>
-              <h3 class={styles.valueTitle}>Pragmatism</h3>
-              <p class={styles.valueDescription}>
-                Real solutions for real organizations. We work within your
-                constraints and culture, not against them. Theory is great;
-                what works is better.
-              </p>
-            </div>
-
-            <div class={`card ${styles.valueCard}`}>
-              <h3 class={styles.valueTitle}>Accountability</h3>
-              <p class={styles.valueDescription}>
-                We commit to outcomes, not just effort. Our recommendations are
-                grounded in business impact. We measure, track, and take
-                responsibility for results.
-              </p>
-            </div>
-
-            <div class={`card ${styles.valueCard}`}>
-              <h3 class={styles.valueTitle}>Partnership</h3>
-              <p class={styles.valueDescription}>
-                We succeed when you succeed. Long-term relationships built on
-                trust, transparency, and mutual commitment to transformation.
-              </p>
-            </div>
+          <div class={styles.caseStudyCta}>
+            <a href="/services" class="btn btn-primary">
+              See How It Works
+            </a>
           </div>
         </div>
       </section>
@@ -260,13 +117,12 @@ export default component$(() => {
       <section class={`${styles.ctaSection} section`} aria-label="Call to Action">
         <div class="container">
           <div class={styles.ctaContent}>
-            <h2 class={styles.ctaHeading}>Let's Discuss Your Transformation</h2>
+            <h2 class={styles.ctaHeading}>Ready to Get Your Own Results?</h2>
             <p class={styles.ctaSubtext}>
-              If you're ready to close the gap between strategy and execution,
-              we'd welcome the conversation.
+              Join our beta program and get a free brand analysis, SEO report, and custom marketing content.
             </p>
-            <a href="/contact" class="btn btn-primary">
-              Schedule Consultation
+            <a href="https://form.jotform.com/253064907564058" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Become a Beta Tester
             </a>
           </div>
         </div>

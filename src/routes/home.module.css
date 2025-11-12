@@ -37,6 +37,76 @@
   margin-top: var(--spacing-md);
 }
 
+/* Beta Tester CTA Section */
+.betaCta {
+  background: var(--muted);
+  text-align: center;
+}
+
+.betaContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.betaHeading {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--foreground);
+}
+
+.betaDescription {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin-bottom: var(--spacing-lg);
+  color: var(--foreground);
+}
+
+.betaCta .btn {
+  margin-top: var(--spacing-md);
+}
+
+/* Proof Section */
+.proofSection {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color: var(--primary-foreground);
+  text-align: center;
+}
+
+.proofContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.proofHeading {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: var(--primary-foreground);
+}
+
+.proofText {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  margin-bottom: var(--spacing-lg);
+  color: var(--primary-foreground);
+  opacity: 0.95;
+}
+
+.proofSection :global(.btn) {
+  margin-top: var(--spacing-md);
+}
+
+.proofSection :global(.btn-secondary) {
+  color: var(--primary-foreground) !important;
+  border-color: var(--primary-foreground) !important;
+}
+
+.proofSection :global(.btn-secondary:hover) {
+  background-color: var(--primary-foreground) !important;
+  color: var(--primary) !important;
+}
+
 /* Services Overview Section */
 .servicesOverview {
   background: var(--background);

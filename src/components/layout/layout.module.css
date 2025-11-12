@@ -5,6 +5,23 @@
   min-height: 100vh;
 }
 
+/* Top Banner */
+.topBanner {
+  background: #1e40af;
+  color: var(--primary-foreground);
+  padding: 0.75rem 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bannerText {
+  font-family: 'Futura', 'Century Gothic', 'Avenir Next', 'Avenir', 'Trebuchet MS', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 /* Main Content Area */
 .main {
   flex: 1;

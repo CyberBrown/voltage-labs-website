@@ -34,6 +34,121 @@
   color: var(--foreground);
 }
 
+/* Process Steps */
+.processStep {
+  background: var(--background);
+}
+
+.processStepAlt {
+  background: var(--muted);
+}
+
+.stepContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stepNumber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-lg);
+}
+
+.stepTitle {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  color: var(--foreground);
+}
+
+.stepDescription {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--foreground);
+  margin: 0;
+}
+
+/* Beta Program Section */
+.betaProgram {
+  background: var(--background);
+}
+
+.betaIntro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto var(--spacing-2xl);
+  font-size: 1.125rem;
+  color: var(--foreground);
+}
+
+.betaGrid {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.betaCard {
+  padding: var(--spacing-xl);
+}
+
+.betaCardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  color: var(--foreground);
+}
+
+.betaList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.betaList li {
+  position: relative;
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.6;
+  color: var(--foreground);
+}
+
+.betaList li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.betaCta {
+  text-align: center;
+  padding: var(--spacing-xl);
+  border-radius: var(--radius);
+  background: var(--muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.betaCtaTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-sm);
+  color: var(--foreground);
+}
+
+.betaCtaText {
+  font-size: 1.0625rem;
+  color: var(--foreground);
+  margin-bottom: var(--spacing-lg);
+}
+
 /* Methodology Section */
 .methodology {
   background: var(--background);

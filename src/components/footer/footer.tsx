@@ -68,16 +68,6 @@ export const Footer = component$(() => {
                 info@voltagelabs.com
               </a>
             </p>
-            <p class={styles.contactItem}>
-              <span class={styles.contactLabel}>Phone:</span>
-              <a href="tel:+1234567890" class={styles.contactLink}>
-                (123) 456-7890
-              </a>
-            </p>
-            <p class={styles.contactItem}>
-              <span class={styles.contactLabel}>Location:</span>
-              <span>Metro Boston</span>
-            </p>
           </address>
         </div>
       </div>
