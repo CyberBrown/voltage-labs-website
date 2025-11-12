@@ -1,6 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Layout } from "../components/layout";
+import { getAssetUrl } from "../utils/assets";
 import styles from "./home.module.css";
 
 /**
@@ -16,17 +17,28 @@ import styles from "./home.module.css";
  * - WCAG 2.1 AA compliant
  */
 export default component$(() => {
+  const heroImageUrl = getAssetUrl("/a-digital-art-composition-featuring-lumi_MmTzGR-oRO6vAoNlwh8Iww_9U7IXHj_Sqykb_UrkKpA4g.png");
+
   return (
     <Layout>
       {/* Hero Section */}
-      <section class={`${styles.hero} section`} aria-label="Hero">
+      <section
+        class={`${styles.hero} section`}
+        aria-label="Hero"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${heroImageUrl})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}
+      >
         <div class="container">
           <div class={styles.heroContent}>
             <h1 class={styles.heroHeading}>
               AI-Driven Playbooks. Executive-Level Results.
             </h1>
             <p class={styles.heroSubheading}>
-              We bring executive-level AI strategy to small and midsized businesses. 
+              We bring executive-level AI strategy to small and midsized businesses.
             </p>
             <a href="/contact" class="btn btn-primary">
               Schedule Strategic Consultation
